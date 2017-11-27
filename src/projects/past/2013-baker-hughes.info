@@ -1,0 +1,5 @@
+LOGO:images/partners/baker.png
+
+TITLE:Smart Com­pression of LWD Acoustic Data
+
+DESC: The project aims to develop algorithms/software for smart data compression of Logging-While-Drilling (LWD) acoustic data. The main focus is on developing a pattern recognition algorithm that can automatically detect structures on acoustic images away from the borehole. Downhole image interpretation based on the pattern recognition algorithm should enable the data transfer to the surface acquisition system in real time by mud pulse telemetry.

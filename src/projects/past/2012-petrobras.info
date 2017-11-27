@@ -1,0 +1,5 @@
+LOGO:images/partners/petrobras.png
+
+TITLE:Processing algorithms and seismic imaging with emphasis in carbonate reservoirs
+
+DESC: Research and development of algorithms for processing and imaging o seismic data over carbonate reservoirs. The project aims for the synergetic association of (1) the Common Reflection Surface (CRS) method and (2) the application of modern signal processing techniques, common in medical imaging, radar, sonar and telecommunications. This project has as results the following technologies: 2D/3D Common Reflection Surface (CRS) stacking software, developed using high performance computing (HPC) techniques and able to process 2D and 3D seismic data up to Terabytes. A compatible interface with the ProMax® package was also developed, along with a manual, allowing its use in production level; 2D/3D Normal Incidence Point (NIP) tomography software, constructing velocity models for depth migration. Designed for parallel computing and with a ProMax® interface; 2D/3D CRS Post-stack Time Migration, final stages of development; Investigations of the latest techniques on time-to-depth conversion.
