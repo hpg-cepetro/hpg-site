@@ -2,168 +2,236 @@
 
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Lib Miletus website">
-    <meta name="author" content="Edson Borin">
-    <!-- TODO: Replace this icon. -->
-    <link rel="icon" href="images/hpg_ico.ico">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="Lib Miletus website">
+  <meta name="author" content="Edson Borin">
+  <!-- TODO: Replace this icon. -->
+  <link rel="icon" href="images/hpg_ico.ico">
 
-    <!-- Bootstrap core CSS -->
-    <link href="./bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="./bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="./bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="./bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="./style/css/jumbotron.css" rel="stylesheet">
 
-    <link href="navbar-fixed-top.css" rel="stylesheet">
+  <link href="./style/css/navbar-fixed-top.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="./bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js"></script>
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="./bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js"></script>
 
-    <!-- nome na aba do navegador -->
-    <title>Home</title>
+  <!-- nome na aba do navegador -->
+  <title>Home</title>
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- NAVBAR -->
-    <!-------------------------------------------------------------------------------->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-	<a href="#" class="navbar-top"><img src="./images/logo_HPG_small.png" height=92px style="display: inline-block;"></a>
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	    <span class="sr-only">Toggle navigation</span>
-	    <span class="icon-bar"></span>
-	    <span class="icon-bar"></span>
-	    <span class="icon-bar"></span>
-          </button>
-        </div>
+  <!-- NAVBAR -->
+  <!-------------------------------------------------------------------------------->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" style="margin-bottom: 5px;">
+        <a href="#" class="navbar-top"><img src="./images/hpg.png" style="height:90px;padding-top:20px;display: inline-block;"></a>
+      </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8" style="margin-top: 55px;">
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-left">
-	    <li class="active"><a href="#">Home</a></li>
-	    <li><a href="./people.html">People</a></li>
-	    <li><a href="./publications.html">Publications</a></li>
-	    <li><a href="./projects.html">Projects</a></li>
-	    <li><a href="./contact.html">Contact</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="./people.html">People</a></li>
+            <li><a href="./publications.html">Publications</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <!-- <li><a href="./news.html">News</a></li> -->
+            <!-- <li><a href="./technologies.html">Technologies</a></li> -->
+            <li><a href="./contact.html">Contact</a></li>
           </ul>
-        </div><!--/.navbar-collapse -->
-      </div> <!-- container -->
-    </nav>
-    <!-------------------------------------------------------------------------------->
+        </div>
+      </div>
+      <!--/.navbar-collapse -->
+    </div> <!-- container -->
+  </nav>
+  <!-------------------------------------------------------------------------------->
 
 
-    <!-------------------------------------------------------------------------------->
-    <div class="jumbotron">
-      <div class="container">
-	<p align="justify">
-	  The High Performance Geophysics Lab, or HPG, is a
-	  multidisciplinary research laboratory that aims at solving
-	  geophysics related problems by combining expertises in
-	  geophysics, geology, physics, applied math and computer
-	  science. The lab has successfully developed research
-	  projects with support from major industry players, such as
-	  Petrobras, Baker Hughes, ANP, NVidia, Microsoft and AMD.
-	</p>
-	<p align="justify">
-	  The lab is coordinated by Prof. Martin Tygel
-	  (<a href="http://www.cepetro.unicamp.br">CEPETRO</a>/<a href="http://www.unicamp.br">Unicamp</a>), and Prof. Edson Borin (<a href="http://www.ic.unicamp.br">Institute of Computing</a>/<a href="http://www.unicamp.br">Unicamp</a>).
-	  The HPG team is composed by roughly 24
-	  people, including geophysics and computer science
-	  researchers, professional geophysicists and software
-	  developers, IT and support staff, PhD and Ms.C. students,
-	  and undergraduate research students.
-	</p>
-	<p align="justify">
-	  The HPG lab is located inside the Center for Petroleum
-	  Studies
-	  (<a href="http://www.cepetro.unicamp.br">CEPETRO</a>), at
-	  the University of Campinas
-	  (<a href="http://www.unicamp.br">Unicamp</a>), and its
-	  facilities include a high-end cluster for high-performance
-	  computing and offices for researchers working on its
-	  projects.
-	</p>
+  <!-------------------------------------------------------------------------------->
+  <div class="container marketing">
+    <div class="row">
+
+      <div class="col-md-9 col-sm-9 col-xs-12 col-lg-9">
+        <div class="jumbotron">
+          <!-- <div class="container"> -->
+          <p align="justify">
+            The High Performance Geophysics Lab, or HPG, is a
+            multidisciplinary research laboratory that aims at solving
+            geophysics related problems by combining expertises in
+            geophysics, geology, physics, applied math and computer
+            science. The lab has successfully developed research
+            projects with support from major industry players, such as
+            Petrobras, Baker Hughes, ANP, NVidia, Microsoft and AMD.
+          </p>
+          <p align="justify">
+            The lab is coordinated by Prof. Martin Tygel
+            (<a href="http://www.cepetro.unicamp.br">CEPETRO</a>/<a href="http://www.unicamp.br">Unicamp</a>), and
+            Prof.
+            Edson Borin (<a href="http://www.ic.unicamp.br">Institute of Computing</a>/<a href="http://www.unicamp.br">Unicamp</a>).
+            The HPG team is composed by roughly 24
+            people, including geophysics and computer science
+            researchers, professional geophysicists and software
+            developers, IT and support staff, PhD and Ms.C. students,
+            and undergraduate research students.
+          </p>
+          <p align="justify">
+            The HPG lab is located inside the Center for Petroleum
+            Studies
+            (<a href="http://www.cepetro.unicamp.br">CEPETRO</a>), at
+            the University of Campinas
+            (<a href="http://www.unicamp.br">Unicamp</a>), and its
+            facilities include a high-end cluster for high-performance
+            computing and offices for researchers working on its
+            projects.
+          </p>
+          <!-- </div> -->
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-12 col-lg-3" style="padding: 35px">
+        <!--  <div class="row">
+          <h4 align="center">News</h4>
+        </div>
+         <div class="row">
+          <div id=carousel class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox" style="padding: 5px">
+              <div class="item active">
+                <p align="justify" style="margin-left: 30px; margin-right: 30px;">
+                  The High Performance Geophysics Lab, or HPG, is a multidisciplinary research laboratory that aims at
+                  solving geophysics related problems by combining expertises in geophysics, geology, physics, applied
+                  math and computer science. The lab has successfully developed research projects with support <a href="./news.html#n1"
+                    style="padding-left: 10px;">Read
+                    more...</a>
+                </p>
+              </div>
+              <div class="item">
+                <p align="justify">
+                  The High Performance Geophysics Lab, or HPG, is a multidisciplinary research laboratory that aims at
+                  solving geophysics related problems by combining expertises in geophysics, geology, physics, applied
+                  math and computer science. The lab has successfully developed research projects with support from
+                  major
+                  industry players, such as Petrobras, Baker Hughes, ANP, NVidia, Microsoft and AMD.
+                  <a href="./news.html#n3" style="padding-left: 10px;">Read more...</a>
+                </p>
+              </div>
+              <a href="#carousel" class="left carousel-control" data-slide="prev" style="background-image: none">
+                <i class="glyphicon glyphicon-chevron-left"></i>
+              </a>
+              <a href="#carousel" class="right carousel-control" data-slide="next" style="background-image: none">
+                <i class="glyphicon glyphicon-chevron-right"></i>
+              </a>
+            </div>
+          </div> 
+        </div> -->
+
+        <div class="row">
+          <h4 align="center">Following Events</h4>
+        </div>
+        <div class="row">
+          <iframe src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=250&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=8cgvvl84c0mbs4qi9hget5bom0%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FSao_Paulo"
+            style="border-width:0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+          </div>
+
       </div>
     </div>
     <!-------------------------------------------------------------------------------->
 
 
     <!-------------------------------------------------------------------------------->
-    <div class="container marketing">
+    <!-- First row of advertisement -->
+    <div class="row">
 
-      <!-- First row of advertisement -->
-      <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+        <p>
+          <h3>State-of-the-art Geophysics</h3>
+        </p>
+        <p align="justify">
+          At the HPG, we develop state-of-the-art geophysics methods
+          to improve seismic imaging.
+        </p>
+      </div>
 
-        <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-          <p><h2>State-of-the-art Geophysics</h2></p>
-	  <p align="justify">
-	    At the HPG, we develop state-of-the-art geophysics methods
-	    to improve seismic imaging.
-	  </p>
-        </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+        <p>
+          <h3>State-of-the-art HW and SW technology</h3>
+        </p>
+        <p align="justify">
+          At the HPG, we constantly research the use of new hardware
+          and software technology to accelerate our software
+          tools. Hardware accelerators such as GPUs and the Intel
+          Xeon PHI are examples of such technologies
 
-        <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-          <p><h2>State-of-the-art HW and SW technology</h2></p>
-	  <p align="justify">
-	    At the HPG, we constantly research the use of new hardware
-	    and software technology to accelerate our software
-	    tools. Hardware accelerators such as GPUs and the Intel
-	    Xeon PHI are examples of such technologies
+        </p>
+      </div>
 
-	  </p>
-        </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+        <p>
+          <h3>Reliable and effective HPC</h3>
+        </p>
+        <p align="justify">
+          At the HPG, we have developed computing technologies that
+          enable our tools to run on systems composed by multiple
+          computing clusters at the same time. It also tolerates
+          node failures and leverages a dynamic provisioning
+          mechanism to allow scaling-up or down during processing.
+        </p>
+      </div>
 
-        <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-          <p><h2>Reliable and effective HPC</h2></p>
-	  <p align="justify">
-	    At the HPG, we have developed computing technologies that
-	    enable our tools to run on systems composed by multiple
-	    computing clusters at the same time. It also tolerates
-	    node failures and leverages a dynamic provisioning
-	    mechanism to allow scaling-up or down during processing.
-	  </p>
-        </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+        <p>
+          <h3>Effective Technology Transfer</h3>
+        </p>
+        <p align="justify">
+          At the HPG, we are proud to deliver our partners with
+          software tools that enable them to processes their
+          datasets on their in-house HPC clusters. <br />
+          Our team thrives at transferring technology by installing and
+          testing our software tools at the partners premises and by
+          supporting them with manuals and technical visits.
+        </p>
+      </div>
 
-        <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-          <p><h2>Effective Technology Transfer</h2></p>
-	  <p align="justify">
-	    At the HPG, we are proud to deliver our partners with
-	    software tools that enable them to processes their
-	    datasets on their in-house HPC clusters. <br/>
-	    Our team thrives at transferring technology by installing and
-	    testing our software tools at the partners premises and by
-	    supporting them with manuals and technical visits.
-	  </p>
-        </div>
+    </div><!-- row -->
 
-      </div><!-- row -->
-
-    </div><!-- /.container -->
-    <!-------------------------------------------------------------------------------->
-
-<!--
+  </div><!-- /.container -->
+  <!-------------------------------------------------------------------------------->
+  <!--
       <footer>
         <p>&copy; 2017 Edson Borin.</p>
       </footer>
 -->
 
 
-    <!-- Bootstrap core JavaScript
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="./bootstrap-3.3.7/assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./bootstrap-3.3.7/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="./bootstrap-3.3.7/assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="./bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="./bootstrap-3.3.7/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
 </html>
