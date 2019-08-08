@@ -1,311 +1,410 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="Lib Miletus website">
-  <meta name="author" content="Edson Borin">
-  <!-- TODO: Replace this icon. -->
-  <link rel="icon" href="images/hpg_ico.ico">
+  <title>Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Your page description here" />
+  <meta name="author" content="" />
 
-  <!-- Bootstrap core CSS -->
-  <link href="./bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
 
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <link href="./bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <!-- Theme skin -->
+  <link href="color/default.css" rel="stylesheet" />
 
-  <!-- Custom styles for this template -->
-  <link href="./style/css/jumbotron.css" rel="stylesheet">
+  <!-- Fav and touch icons -->
+  <link rel="shortcut icon" href="ico/favicon.png" />
 
-  <link href="./style/css/navbar-fixed-top.css" rel="stylesheet">
-
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-  <script src="./bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js"></script>
-
-  <!-- nome na aba do navegador -->
-  <title>HPG Projects</title>
-
+  <!-- =======================================================
+    Theme Name: Eterna
+    Theme URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
+
 
 <body>
 
-  <!-- NAVBAR -->
-  <!-------------------------------------------------------------------------------->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" style="margin-bottom: 5px;">
-        <a href="./index.html" class="navbar-top"><img src="./images/hpg.png" style="height:90px;padding-top:20px;display: inline-block;"></a>
-      </div>
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-          aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8" style="margin-top: 55px;">
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-left">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./people.html">People</a></li>
-            <li><a href="./publications.html">Publications</a></li>
-            <li class="active"><a href="./projects.html">Projects</a></li>
-            <!-- <li><a href="./news.html">News</a></li> -->
-            <!-- <li><a href="./technologies.html">Technologies</a></li> -->
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
+  <div id="wrapper">
+
+    <!-- start header -->
+    <header>
+
+      <div class="container" style="margin-top: 10px;">
+        <div class="row nomargin">
+          <div class="span4">
+            <div class="logo">
+              <a href="index.html"><img src="img/hpg/logo_HPG.png" style="height: 60%; width: 60%" alt="HPG Logo" /></a>
+            </div>
+          </div>
+          <div class="span8">
+            <div class="navbar navbar-static-top">
+              <div class="navigation">
+                <nav>
+                  <ul class="nav topnav">
+                    <li>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="technologies.html">Technologies </a>
+                    </li>
+                    <li class="active">
+                      <a href="projects.html">Projects </a>
+                    </li>
+                    <li>
+                      <a href="team.html">Team </a>
+                    </li>
+                    <li>
+                      <a href="publications.html">Publications </a>
+                    </li>
+                    <!--  <li>
+                      <a href="support.html">Support </a>
+                    </li> -->
+                    <!-- <li>
+                      <a href="contact.html">Contact </a>
+                    </li> -->
+                  </ul>
+                </nav>
+              </div>
+              <!-- end navigation -->
+            </div>
+          </div>
         </div>
       </div>
-      <!--/.navbar-collapse -->
-    </div> <!-- container -->
-  </nav>
-  <!-------------------------------------------------------------------------------->
+    </header>
+    <!-- end header -->
+
+    <section id="content">
+      <div class="container">
 
 
-  <!-------------------------------------------------------------------------------->
-  <div class="container marketing">
-    <p>
-      <h2 class="page-header">Ongoing Projects</h2>
-    </p>
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-        <table class="table">
-          <tbody>
-            <tr>
-              <td style="vertical-align:middle;height:100px;width:90px">
-                <img id="project_image" src="images/partners/petrobras.png">
-              </td>
-              <td style="vertical-align:middle;">
-                <h4>Algorithms and methods for diffraction separation in the pre-stack domain and extraction of
-                  anisotropic parameters in HPC systems<h4>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <p align="justify">The main objectives of the project are research, development and practical
-                  application of diffraction separation, 5D regularization in the pre-stack domain and extraction of
-                  kinematic parameters related to anisotropic parameters. The obtained results, with direct application
-                  in industry, will have a significant impact on migration velocity model validation in complex
-                  geology, such as those found in pre-salt reservoirs.</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="row">
+          <div class="span12">
+            <h2><strong>Ongoing Projects</strong></h2>
+            <div class="solidline"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="span12">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/projects/petrobras.png" />
+                </div>
+                <div class="span10">
+                  <h6 style="text-align: justify;"><b>Algorithms and methods for diffraction separation in the pre-stack
+                      domain and extraction of
+                      anisotropic parameters in HPC systems</b></h6>
+                </div>
+              </div>
+              <p style="text-align: justify;">The main objectives of the project are research, development and
+                practical
+                application of diffraction separation, 5D regularization in the pre-stack domain and extraction of
+                kinematic parameters related to anisotropic parameters. The obtained results, with direct application
+                in industry, will have a significant impact on migration velocity model validation in complex
+                geology, such as those found in pre-salt reservoirs.
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+        </div>
+        <!-- End Row -->
+
+        <div class="row">
+          <div class="span12">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/projects/petrobras.png" />
+                </div>
+                <div class="span10">
+                  <h6 style="text-align: justify;"><b>Research and development of technologies for high performance
+                      seismic
+                      processing on the cloud</b></h6>
+                </div>
+              </div>
+              <p style="text-align: justify;">In this project, we are investigating and developing new technologies to
+                facilitate high-performance seismic processing using cloud computing services, including Software as a
+                Service (SaaS), Platform as a Service (PaaS) and Infrastructure as a Service (IaaS). The resulting
+                technologies will be consolidated on a platform that must optimize the cost and performance of seismic
+                processing applications on the cloud, including loosely- and tightly-coupled high-performance seismic
+                applications and machine learning based seismic applications.
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+        </div>
+        <!-- End Row -->
+
+        <div class="row">
+          <div class="span12">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/projects/petrobras.png" />
+                </div>
+                <div class="span10">
+                  <h6 style="text-align: justify;"><b>High-Performance Geophysics lab computing infrastructure
+                      upgrade</b></h6>
+                </div>
+              </div>
+              <p style="text-align: justify;">In this project we are upgrading the high-performance computing
+                infrastructure installed at the High-Performance Geophysics lab to expand the laboratory’s processing
+                capacity. This upgrade includes a new high-performance computing system that will be able to perform up
+                to 350
+                TeraFlops. This new system will be used to support the HPG research on new seismic processing
+                technologies for 3D seismic datasets.
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+        </div>
+        <!-- End Row -->
+
+        <div class="row">
+          <div class="span12">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/projects/petrobras.png" />
+                </div>
+                <div class="span10">
+                  <h6 style="text-align: justify;"><b>Development and practical application of processing techniques,
+                      regularization, and imaging in the prestack domain based on 3D HPC CRS</b></h6>
+                </div>
+              </div>
+              <p style="text-align: justify;">In this project we are generalizing the Common Reflection Surface (CRS)
+                techniques developed on the last project to the prestack domain, and applying it to several important
+                seismic imaging problems. Such problems include 5D Regularization, 3D Common Reflection Point
+                Migration, Normal Incidence Point Tomography, Image Incident Point and Stereotomography. We are also
+                developing an Anisotropic CRS. All these techniques are being developed over our SeisHPC framework,
+                which will provide scalability and fault tolerance for very large problems on heterogeneous clusters of
+                computers. This is a three-year project that started back in February 2016.
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+        </div>
+        <!-- End Row -->
+
+        <div class="row">
+          <div class="span12">
+            <h2><strong>Past Projects</strong></h2>
+            <div class="solidline"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="span12">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/projects/baker.png" />
+                </div>
+                <div class="span10">
+                  <h6 style="text-align: justify;"><b>Smart Com­pression of LWD Acoustic Data</b></h6>
+                </div>
+              </div>
+              <p style="text-align: justify;">The project aims to develop algorithms/software for smart data
+                compression of
+                Logging-While-Drilling (LWD) acoustic data. The main focus is on developing a pattern recognition
+                algorithm that can automatically detect structures on acoustic images away from the borehole.
+                Downhole image interpretation based on the pattern recognition algorithm should enable the data
+                transfer to the surface acquisition system in real time by mud pulse telemetry.
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+        </div>
+        <!-- End Row -->
+
+        <div class="row">
+          <div class="span12">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/projects/petrobras.png" />
+                </div>
+                <div class="span10">
+                  <h6 style="text-align: justify;"><b>Processing algorithms and seismic imaging with emphasis in
+                      carbonate
+                      reservoirs</b></h6>
+                </div>
+              </div>
+              <p style="text-align: justify;">Research and development of algorithms for processing and imaging o
+                seismic data
+                over carbonate reservoirs. The project aims for the synergetic association of (1) the Common
+                Reflection Surface (CRS) method and (2) the application of modern signal processing techniques,
+                common in medical imaging, radar, sonar and telecommunications. This project has as results the
+                following technologies: 2D/3D Common Reflection Surface (CRS) stacking software, developed using
+                high
+                performance computing (HPC) techniques and able to process 2D and 3D seismic data up to Terabytes.
+                A
+                compatible interface with the ProMax® package was also developed, along with a manual, allowing its
+                use in production level; 2D/3D Normal Incidence Point (NIP) tomography software, constructing
+                velocity models for depth migration. Designed for parallel computing and with a ProMax® interface;
+                2D/3D CRS Post-stack Time Migration, final stages of development; Investigations of the latest
+                techniques on time-to-depth conversion.
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+        </div>
+        <!-- End Row -->
+
+
+        <div class="row">
+          <div class="span12">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/projects/petrobras.png" />
+                </div>
+                <div class="span10">
+                  <h6 style="text-align: justify;"><b>2D and 3D Seismic imaging incor­porating the CRS method and
+                      velocity
+                      analysis</b></h6>
+                </div>
+              </div>
+              <p style="text-align: justify;">This project was carried out, from 2011 until 2013, at the Geophysical
+                Computational
+                Laboratory (LGC), at the Institute of Mathematics, Statistics and Computer Science (IMECC),
+                coordinated by Professor Martin Tygel.
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+        </div>
+        <!-- End Row -->
+
+        <div class="row">
+          <div class="span12">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/projects/anp.png" />
+                </div>
+                <div class="span10">
+                  <h6 style="text-align: justify;"><b>Seismic data repro­cessing on ANP's interest areas</b></h6>
+                </div>
+              </div>
+              <p style="text-align: justify;">This project was carried out at the Geophysical Computational Laboratory
+                (LGC), at
+                the Institute of Mathematics, Statistics and Computer Science (IMECC), coordinated by Professor
+                Martin Tygel.
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+        </div>
+        <!-- End Row -->
+
       </div>
+    </section>
 
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-        <table class="table">
-          <tbody>
-
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td style="vertical-align:middle;height:100px;width:90px">
-                      <img id="project_image" src="images/partners/petrobras.png">
-                    </td>
-                    <td style="vertical-align:middle;">
-                      <h4>Research and development of technologies for high performance seismic processing on the cloud
-                        <h4>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colspan="2">
-                      <p align="justify">In this project, we are investigating and developing new technologies to
-                        facilitate high-performance seismic processing using cloud computing services, including
-                        Software as a Service (SaaS), Platform as a Service (PaaS) and Infrastructure as a Service
-                        (IaaS). The resulting technologies will be consolidated on a platform that must optimize the
-                        cost and performance of seismic processing applications on the cloud, including loosely- and
-                        tightly-coupled high-performance seismic applications and machine learning based seismic
-                        applications.</p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Get in touch</h5>
+              <p>
+                <i class="icon-phone"></i> +55 19 3521-1208<br>
+                <i class="icon-envelope-alt"></i> <a href="mailto:admin@ggaunicamp.com"
+                  target="_top">admin@ggaunicamp.com</a>
+              </p>
+            </div>
+            <br>
+            <address>
+              <strong>High Performance Geophysics Lab</strong><br>
+              Cora Coralina 350 St, Cidade Universitária<br>
+              Campinas/SP Brazil
+            </address>
+          </div>
+          <div class="span4 offset5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.7181184567303!2d-47.07003238451434!3d-22.812906485059642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c15274582707%3A0xedbefbe7d570408c!2sCEPETRO+-+Centro+de+Estudos+de+Petr%C3%B3leo!5e0!3m2!1spt-BR!2sbr!4v1550787637174"
+              width="100%" height="206" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <br />
+          </div>
+        </div>
+      </div>
+      <div id="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <div class="copyright">
+                <p><span>&copy; Eterna company. All right reserved</span></p>
+              </div>
+              <a href="https://www.freepik.com/free-photos-vectors/winter">Winter photo created by kotkoa -
+                www.freepik.com</a>
             </div>
 
- 
-
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td style="vertical-align:middle;height:100px;width:90px">
-                      <img id="project_image" src="images/partners/petrobras.png">
-                    </td>
-                    <td style="vertical-align:middle;">
-                      <h4>High-Performance Geophysics lab computing infrastructure upgrade<h4>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colspan="2">
-                      <p align="justify">In this project we are upgrading the high-performance computing infrastructure
-                        installed at the High-Performance Geophysics lab to expand the laboratory’s processing
-                        capacity. This
-                        upgrade includes a new high-performance computing system that will be able to perform up to 350
-                        TeraFlops. This new system will be used to support the HPG research on new seismic processing
-                        technologies for 3D seismic datasets. </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="span6">
+              <div class="credits">
+                <!--
+                    All the links in the footer should remain intact.
+                    You can delete the links only if you purchased the pro version.
+                    Licensing information: https://bootstrapmade.com/license/
+                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Eterna
+                  -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
             </div>
-
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td style="vertical-align:middle;height:100px;width:90px">
-                      <img id="project_image" src="images/partners/petrobras.png">
-                    </td>
-                    <td style="vertical-align:middle;">
-                      <h4>Development and practical application of processing techniques, regularization, and imaging
-                        in the
-                        prestack domain based on 3D HPC CRS<h4>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colspan="2">
-                      <p align="justify">In this project we are generalizing the Common Reflection Surface (CRS)
-                        techniques
-                        developed on the last project to the prestack domain, and applying it to several important
-                        seismic
-                        imaging problems. Such problems include 5D Regularization, 3D Common Reflection Point
-                        Migration,
-                        Normal Incidence Point Tomography, Image Incident Point and Stereotomography. We are also
-                        developing
-                        an Anisotropic CRS. All these techniques are being developed over our SeisHPC framework, which
-                        will
-                        provide scalability and fault tolerance for very large problems on heterogeneous clusters of
-                        computers. This is a three-year project that started back in February 2016.</p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-      </div> <!-- row -->
-
-      <p>
-        <h2 class="page-header">Past Projects</h2>
-      </p>
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <table class="table">
-            <tbody>
-              <tr>
-                <td style="vertical-align:middle;height:100px;width:90px">
-                  <img id="project_image" src="images/partners/baker.png">
-                </td>
-                <td style="vertical-align:middle;">
-                  <h4>Smart Com­pression of LWD Acoustic Data<h4>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="2">
-                  <p align="justify">The project aims to develop algorithms/software for smart data compression of
-                    Logging-While-Drilling (LWD) acoustic data. The main focus is on developing a pattern recognition
-                    algorithm that can automatically detect structures on acoustic images away from the borehole.
-                    Downhole image interpretation based on the pattern recognition algorithm should enable the data
-                    transfer to the surface acquisition system in real time by mud pulse telemetry.</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <table class="table">
-            <tbody>
-              <tr>
-                <td style="vertical-align:middle;height:100px;width:90px">
-                  <img id="project_image" src="images/partners/petrobras.png">
-                </td>
-                <td style="vertical-align:middle;">
-                  <h4>Processing algorithms and seismic imaging with emphasis in carbonate reservoirs<h4>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="2">
-                  <p align="justify">Research and development of algorithms for processing and imaging o seismic data
-                    over carbonate reservoirs. The project aims for the synergetic association of (1) the Common
-                    Reflection Surface (CRS) method and (2) the application of modern signal processing techniques,
-                    common in medical imaging, radar, sonar and telecommunications. This project has as results the
-                    following technologies: 2D/3D Common Reflection Surface (CRS) stacking software, developed using
-                    high
-                    performance computing (HPC) techniques and able to process 2D and 3D seismic data up to Terabytes.
-                    A
-                    compatible interface with the ProMax® package was also developed, along with a manual, allowing its
-                    use in production level; 2D/3D Normal Incidence Point (NIP) tomography software, constructing
-                    velocity models for depth migration. Designed for parallel computing and with a ProMax® interface;
-                    2D/3D CRS Post-stack Time Migration, final stages of development; Investigations of the latest
-                    techniques on time-to-depth conversion.</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <table class="table">
-            <tbody>
-              <tr>
-                <td style="vertical-align:middle;height:100px;width:90px">
-                  <img id="project_image" src="images/partners/petrobras.png">
-                </td>
-                <td style="vertical-align:middle;">
-                  <h4>2D and 3D Seismic imaging incor­porating the CRS method and velocity analysis<h4>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="2">
-                  <p align="justify">This project was carried out, from 2011 until 2013, at the Geophysical
-                    Computational
-                    Laboratory (LGC), at the Institute of Mathematics, Statistics and Computer Science (IMECC),
-                    coordinated by Professor Martin Tygel.</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <table class="table">
-            <tbody>
-              <tr>
-                <td style="vertical-align:middle;height:100px;width:90px">
-                  <img id="project_image" src="images/partners/anp.png">
-                </td>
-                <td style="vertical-align:middle;">
-                  <h4>Seismic data repro­cessing on ANP's interest areas<h4>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="2">
-                  <p align="justify">This project was carried out at the Geophysical Computational Laboratory (LGC), at
-                    the Institute of Mathematics, Statistics and Computer Science (IMECC), coordinated by Professor
-                    Martin Tygel.</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div> <!-- row -->
+      </div>
+    </footer>
+  </div>
+  <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bglight icon-2x active"></i></a>
 
-    </div><!-- /.container -->
-    <!-------------------------------------------------------------------------------->
-
-    <!-- Bootstrap core JavaScript
+  <!-- javascript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="./bootstrap-3.3.7/assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./bootstrap-3.3.7/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/toucheffects.js"></script>
+  <script src="js/google-code-prettify/prettify.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/portfolio/jquery.quicksand.js"></script>
+  <script src="js/portfolio/setting.js"></script>
+
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/animate.js"></script>
+  <script src="js/inview.js"></script>
+
+  <!-- Template Custom JavaScript File -->
+  <script src="js/custom.js"></script>
+
+
 </body>
 
 </html>

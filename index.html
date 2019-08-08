@@ -1,237 +1,292 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="Lib Miletus website">
-  <meta name="author" content="Edson Borin">
-  <!-- TODO: Replace this icon. -->
-  <link rel="icon" href="images/hpg_ico.ico">
+  <title>HPG - Cepetro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Your page description here" />
+  <meta name="author" content="" />
 
-  <!-- Bootstrap core CSS -->
-  <link href="./bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/prettyPhoto.css" rel="stylesheet" />
+  <link href="css/camera.css" rel="stylesheet" />
+  <link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
 
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <link href="./bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <!-- Theme skin -->
+  <link href="color/default.css" rel="stylesheet" />
 
-  <!-- Custom styles for this template -->
-  <link href="./style/css/jumbotron.css" rel="stylesheet">
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="ico/favicon.png" />
 
-  <link href="./style/css/navbar-fixed-top.css" rel="stylesheet">
-
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-  <script src="./bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js"></script>
-
-  <!-- nome na aba do navegador -->
-  <title>Home</title>
-
+  <!-- =======================================================
+    Theme Name: Eterna
+    Theme URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
 
 <body>
 
-  <!-- NAVBAR -->
-  <!-------------------------------------------------------------------------------->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" style="margin-bottom: 5px;">
-        <a href="#" class="navbar-top"><img src="./images/hpg.png" style="height:90px;padding-top:20px;display: inline-block;"></a>
-      </div>
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-          aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8" style="margin-top: 55px;">
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-left">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="./people.html">People</a></li>
-            <li><a href="./publications.html">Publications</a></li>
-            <li><a href="./projects.html">Projects</a></li>
-            <!-- <li><a href="./news.html">News</a></li> -->
-            <!-- <li><a href="./technologies.html">Technologies</a></li> -->
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-      <!--/.navbar-collapse -->
-    </div> <!-- container -->
-  </nav>
-  <!-------------------------------------------------------------------------------->
+  <div id="wrapper">
 
+    <!-- start header -->
+    <header>
 
-  <!-------------------------------------------------------------------------------->
-  <div class="container marketing">
-    <div class="row">
-
-      <div class="col-md-9 col-sm-9 col-xs-12 col-lg-9">
-        <div class="jumbotron">
-          <!-- <div class="container"> -->
-          <p align="justify">
-            The High Performance Geophysics Lab, or HPG, is a
-            multidisciplinary research laboratory that aims at solving
-            geophysics related problems by combining expertises in
-            geophysics, geology, physics, applied math and computer
-            science. The lab has successfully developed research
-            projects with support from major industry players, such as
-            Petrobras, Baker Hughes, ANP, NVidia, Microsoft and AMD.
-          </p>
-          <p align="justify">
-            The lab is coordinated by Prof. Martin Tygel
-            (<a href="http://www.cepetro.unicamp.br">CEPETRO</a>/<a href="http://www.unicamp.br">Unicamp</a>), and
-            Prof.
-            Edson Borin (<a href="http://www.ic.unicamp.br">Institute of Computing</a>/<a href="http://www.unicamp.br">Unicamp</a>).
-            The HPG team is composed by roughly 40
-            people, including geophysics and computer science
-            researchers, professional geophysicists and software
-            developers, IT and support staff, PhD and Ms.C. students,
-            and undergraduate research students.
-          </p>
-          <p align="justify">
-            The HPG lab is located inside the Center for Petroleum
-            Studies
-            (<a href="http://www.cepetro.unicamp.br">CEPETRO</a>), at
-            the University of Campinas
-            (<a href="http://www.unicamp.br">Unicamp</a>), and its
-            facilities include a high-end cluster for high-performance
-            computing and offices for researchers working on its
-            projects.
-          </p>
-          <!-- </div> -->
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-3 col-xs-12 col-lg-3" style="padding: 35px">
-        <!--  <div class="row">
-          <h4 align="center">News</h4>
-        </div>
-         <div class="row">
-          <div id=carousel class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox" style="padding: 5px">
-              <div class="item active">
-                <p align="justify" style="margin-left: 30px; margin-right: 30px;">
-                  The High Performance Geophysics Lab, or HPG, is a multidisciplinary research laboratory that aims at
-                  solving geophysics related problems by combining expertises in geophysics, geology, physics, applied
-                  math and computer science. The lab has successfully developed research projects with support <a href="./news.html#n1"
-                    style="padding-left: 10px;">Read
-                    more...</a>
-                </p>
-              </div>
-              <div class="item">
-                <p align="justify">
-                  The High Performance Geophysics Lab, or HPG, is a multidisciplinary research laboratory that aims at
-                  solving geophysics related problems by combining expertises in geophysics, geology, physics, applied
-                  math and computer science. The lab has successfully developed research projects with support from
-                  major
-                  industry players, such as Petrobras, Baker Hughes, ANP, NVidia, Microsoft and AMD.
-                  <a href="./news.html#n3" style="padding-left: 10px;">Read more...</a>
-                </p>
-              </div>
-              <a href="#carousel" class="left carousel-control" data-slide="prev" style="background-image: none">
-                <i class="glyphicon glyphicon-chevron-left"></i>
-              </a>
-              <a href="#carousel" class="right carousel-control" data-slide="next" style="background-image: none">
-                <i class="glyphicon glyphicon-chevron-right"></i>
-              </a>
+      <div class="container" style="margin-top: 10px;">
+        <div class="row nomargin">
+          <div class="span4">
+            <div class="logo">
+              <a href="index.html"><img src="img/hpg/logo_HPG.png" style="height: 60%; width: 60%" alt="" /></a>
             </div>
-          </div> 
-        </div> -->
-
-        <div class="row">
-          <h4 align="center">Following Events</h4>
-        </div>
-        <div class="row">
-          <iframe src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=250&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=8cgvvl84c0mbs4qi9hget5bom0%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FSao_Paulo"
-            style="border-width:0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
           </div>
+          <div class="span8">
+            <div class="navbar navbar-static-top">
+              <div class="navigation">
+                <nav>
+                  <ul class="nav topnav">
+                    <li class="active">
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="technologies.html">Technologies </a>
+                    </li>
+                    <li>
+                      <a href="projects.html">Projects </a>
+                    </li>
+                    <li>
+                      <a href="team.html">Team </a>
+                    </li>
+                    <li>
+                      <a href="publications.html">Publications </a>
+                    </li>
+                    <!--  <li>
+                      <a href="support.html">Support </a>
+                    </li> -->
+                    <!-- <li>
+                      <a href="contact.html">Contact </a>
+                    </li> -->
+                  </ul>
+                </nav>
+              </div>
+              <!-- end navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- section featured -->
+    <section id="featured">
+
+      <!-- slideshow start here -->
+
+      <div class="camera_wrap" id="camera-slide">
+
+        <!-- slide 1 here -->
+        <div data-src="img/hpg/index/seismic-branco.png">
+          <div class="camera_caption fadeFromLeft">
+            <div class="container">
+              <div class="row">
+                <div class="span6">
+                  <h2 class="animated fadeInDown"><strong><span
+                        style="color: #173E4E; text-shadow: 0px 0px 5px #F0F8FF">High-Performance
+                        Geophysics</span></strong></h2>
+                  <h4 class="animated fadeInUp"><span style="color: white; text-shadow: 0px 0px 5px #2F4F4F">
+                      State-of-the-art Geophysics </span></h4>
+                </div>
+                <!-- <div class="span6">
+                  <img src="img/slides/camera/slide1/screen.png" alt="" class="animated bounceInDown delay1" />
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- slide 2 here -->
+        <div data-src="img/hpg/index/data-center.jpg">
+          <div class="camera_caption fadeFromLeft">
+            <div class="container">
+              <div class="row">
+                <div class="span6">
+                </div>
+                <div class="span6">
+                  <h2 class="animated fadeInDown"><strong><span
+                        style="color: #173E4E; text-shadow: 0px 0px 20px whitesmoke">High-Performance
+                        Geophysics</span></strong></h2>
+                  <h4 class="animated fadeInUp" style="color: mintcream"> Reliable High-Performance Computing Software
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- slide 3 here -->
+        <div data-src="img/hpg/index/oil-rig-3.png">
+          <div class="camera_caption fadeFromLeft">
+            <div class="container">
+              <div class="row">
+                <div class="span6">
+                  <h2 class="animated fadeInLeft"><strong><span
+                        style="color: #173E4E; text-shadow: 0px 0px 5px #F0F8FF">High-Performance
+                        Geophysics</span></strong></h2>
+                  <h4 class="animated fadeInRight" style="color: mintcream">Effective Technology Transfer </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
-    </div>
-    <!-------------------------------------------------------------------------------->
 
+      <!-- slideshow end here -->
 
-    <!-------------------------------------------------------------------------------->
-    <!-- First row of advertisement -->
-    <div class="row">
+    </section>
+    <!-- /section featured -->
 
-      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-        <p>
-          <h3>State-of-the-art Geophysics</h3>
-        </p>
-        <p align="justify">
-          At the HPG, we develop state-of-the-art geophysics methods
-          to improve seismic imaging.
-        </p>
+    <section id="content">
+      <div class="container">
+
+        <div class="row">
+          <div class="span12">
+            <div class="row">
+              <div class="span12">
+                <div class="aligncenter">
+                  <h3><strong>Technologies</strong></h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+
+              <div class="span4">
+                <div class="service-box aligncenter flyLeft">
+                  <div class="icon">
+                    <a href="./technologies.html#zoStacking"><i
+                        class="icon-circled icon-bgprimary icon-gears icon-4x"></i></a>
+                  </div>
+                  <h5>Seismic <span class="colored">Processing</span></h5>
+
+                </div>
+              </div>
+              <div class="span4">
+                <div class="service-box aligncenter flyIn">
+                  <div class="icon">
+                    <a href="./technologies.html#timeMigration"><i
+                        class="icon-circled icon-bgprimary icon-globe icon-4x"></i></a>
+                  </div>
+                  <h5>Seismic <span class="colored">Imaging</span></h5>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="service-box aligncenter flyRight">
+                  <div class="icon">
+                    <a href="./technologies.html#hpcAndCloud"><i
+                        class="icon-circled icon-bgprimary icon-cloud icon-4x"></i></a>
+                  </div>
+                  <h5><span class="colored">HPC</span> and <span class="colored">Cloud Computing</span></h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-        <p>
-          <h3>State-of-the-art HW and SW technology</h3>
-        </p>
-        <p align="justify">
-          At the HPG, we constantly research the use of new hardware
-          and software technology to accelerate our software
-          tools. Hardware accelerators such as GPUs and the Intel
-          Xeon PHI are examples of such technologies
-
-        </p>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Get in touch</h5>
+              <p>
+                <i class="icon-phone"></i> +55 19 3521-1208<br>
+                <i class="icon-envelope-alt"></i> <a href="mailto:admin@ggaunicamp.com"
+                  target="_top">admin@ggaunicamp.com</a>
+              </p>
+            </div>
+            <br>
+            <address>
+              <strong>High Performance Geophysics Lab</strong><br>
+              Cora Coralina 350 St, Cidade Universitária<br>
+              Campinas/SP Brazil
+            </address>
+          </div>
+          <div class="span4 offset5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.7181184567303!2d-47.07003238451434!3d-22.812906485059642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c15274582707%3A0xedbefbe7d570408c!2sCEPETRO+-+Centro+de+Estudos+de+Petr%C3%B3leo!5e0!3m2!1spt-BR!2sbr!4v1550787637174"
+              width="100%" height="206" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <br />
+          </div>
+        </div>
       </div>
+      <div id="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <div class="copyright">
+                <p><span>&copy; Eterna company. All right reserved</span></p>
+              </div>
+              <a href="https://www.freepik.com/free-photos-vectors/winter">Winter photo created by kotkoa -
+                www.freepik.com</a>
+            </div>
 
-      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-        <p>
-          <h3>Reliable and effective HPC</h3>
-        </p>
-        <p align="justify">
-          At the HPG, we have developed computing technologies that
-          enable our tools to run on systems composed by multiple
-          computing clusters at the same time. It also tolerates
-          node failures and leverages a dynamic provisioning
-          mechanism to allow scaling-up or down during processing.
-        </p>
+            <div class="span6">
+              <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Eterna
+                -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </footer>
+  </div>
+  <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bglight icon-2x active"></i></a>
 
-      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-        <p>
-          <h3>Effective Technology Transfer</h3>
-        </p>
-        <p align="justify">
-          At the HPG, we are proud to deliver our partners with
-          software tools that enable them to processes their
-          datasets on their in-house HPC clusters. <br />
-          Our team thrives at transferring technology by installing and
-          testing our software tools at the partners premises and by
-          supporting them with manuals and technical visits.
-        </p>
-      </div>
-
-    </div><!-- row -->
-
-  </div><!-- /.container -->
-  <!-------------------------------------------------------------------------------->
-  <!--
-      <footer>
-        <p>&copy; 2017 Edson Borin.</p>
-      </footer>
--->
-
-
-  <!-- Bootstrap core JavaScript
+  <!-- javascript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="./bootstrap-3.3.7/assets/js/vendor/jquery.min.js"><\/script>')</script>
-  <script src="./bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="./bootstrap-3.3.7/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/toucheffects.js"></script>
+  <script src="js/google-code-prettify/prettify.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/camera/camera.js"></script>
+  <script src="js/camera/setting.js"></script>
+
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/portfolio/jquery.quicksand.js"></script>
+  <script src="js/portfolio/setting.js"></script>
+
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/animate.js"></script>
+  <script src="js/inview.js"></script>
+
+  <!-- Template Custom JavaScript File -->
+  <script src="js/custom.js"></script>
+
 </body>
 
 </html>

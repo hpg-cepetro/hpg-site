@@ -1,5 +1,0 @@
-LOGO:images/partners/petrobras.png
-
-TITLE:Development and practical application of processing techniques, regularization, and imaging in the prestack domain based on 3D HPC CRS
-
-DESC: In this project we are generalizing the Common Reflection Surface (CRS) techniques developed on the last project to the prestack domain, and applying it to several important seismic imaging problems. Such problems include 5D Regularization, 3D Common Reflection Point Migration, Normal Incidence Point Tomography, Image Incident Point and Stereotomography. We are also developing an Anisotropic CRS. All these techniques are being developed over our SeisHPC framework, which will provide scalability and fault tolerance for very large problems on heterogeneous clusters of computers. This is a three-year project that started back in February 2016.
