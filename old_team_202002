@@ -141,6 +141,34 @@
         </div>
 
         <div class="row">
+<!-- 
+          <div class="span6">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/people/borin_web.png" />
+                </div>
+                <div class="span4 aligncenter">
+                  <h6><b>Prof. Dr. Edson Borin</b></h6>
+                  <p><b>Principal Investigator</b></p>
+                  <p><i>edson at ic.unicamp.br</i></p>
+                  <p>
+                    <a href="http://lattes.cnpq.br/4176915322233893" target="_blank">Lattes</a>
+                    <a href="https://scholar.google.com.br/citations?user=dZAu_PkAAAAJ"
+                      target="_blank">GoogleMyCitations</a>
+                  </p>
+                </div>
+              </div>
+             <p style="text-align: justify;">
+                Prof. Edson Borin is currently the head of the Department of Computer Systems at the Institute of
+                Computing (IC/UNICAMP)
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
@@ -200,6 +228,28 @@
 <!-- End row -->
 
 	<div class="row">
+          <div class="span6">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/people/sandra.png" />
+                </div>
+                <div class="span4 aligncenter">
+                  <h6><b>Prof. Dra. Sandra Eliza Fontes de Avila</b></h6>
+                  <p><b>Professor PhD I State University of Campinas</b></p>
+                  <p><i>sandra at ic.unicamp.br</i></p>
+                  <p><a href="http://lattes.cnpq.br/8343699060914150" target="_blank">Lattes</a></p>
+                </div>
+              </div>
+              <p style="text-align: justify;">
+                PhD in Computer Science, with a double degree from the Federal University of Minas Gerais (UFMG) and
+                the Université Pierre et Marie Curie
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
 
        <div class="span6">
             <div class="team-box thumbnail">
@@ -224,8 +274,11 @@
             </div>
           </div>
           <!-- End span -->
- 
-                     
+  </div>
+        <!-- End Row -->
+        
+       <div class="row">
+        
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
@@ -248,12 +301,7 @@
             </div>
           </div>
           <!-- End span -->
-		 
-		 </div>
-		<!-- End Row -->
-          
-        <div class="row">
-        
+
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
@@ -275,7 +323,11 @@
             </div>
           </div>
           <!-- End span -->
-		 
+		   </div>
+		<!-- End row -->
+
+<div class="row">
+
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
@@ -303,11 +355,7 @@
             </div>
           </div>
           <!-- End span -->
-		
-		 </div>
-		<!-- End row -->
-		
-		<div class="row">
+
 
           <div class="span6">
             <div class="team-box thumbnail">
@@ -334,7 +382,11 @@
             </div>
           </div>
           <!-- End span -->
-             
+        </div>
+        <!-- End row -->
+ 
+ 		<div class="row">
+        
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
@@ -359,10 +411,7 @@
             </div>
           </div>
           <!-- End span -->
-		</div>
-        <!-- End row -->
-        
-        <div class="row">
+
        
           <div class="span6">
             <div class="team-box thumbnail">
@@ -388,7 +437,36 @@
             </div>
           </div>
           <!-- End span -->
-                    
+        </div>
+        <!-- End row -->
+        
+		<div class="row">
+
+          <div class="span6">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/people/joao.speglich.png" />
+                </div>
+                <div class="span4 aligncenter">
+                  <h6><b>João Henrique Speglich</b></h6>
+                  <p><b>Software Developer</b></p>
+                  <p><i>joaospeglich at ggaunicamp.com</i></p>
+                  <p>
+                    <a href="http://lattes.cnpq.br/5163474046357337" target="_blank">Lattes</a>
+                  </p>
+                </div>
+              </div>
+              <p style="text-align: justify;">
+                Computer Engineering student at the Institute of
+                Computing at the University of Campinas (IC/UNICAMP)
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
@@ -414,10 +492,10 @@
           </div>
           <!-- End span -->
         </div>
-        <!-- End row -->
-        
+        <!-- End Row -->
+
           <div class="row">
-                 
+
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
@@ -441,7 +519,33 @@
             </div>
            </div>
           <!-- End span -->
-                             
+<!-- 
+          <div class="span6">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/people/rafael.png" />
+                </div>
+                <div class="span4 aligncenter">
+                  <h6><b>Rafael Aparecido Granzotti</b></h6>
+                  <p><b>Software Developer</b></p>
+                  <p><i>rgranzottii at ggaunicamp.com</i></p>
+                  <p>
+                    <a href="http://lattes.cnpq.br/1953804025258800" target="_blank">Lattes</a>
+                  </p>
+                </div>
+              </div>
+              <p style="text-align: justify;">
+                B.in Applied Mathematics at University of Campinas (IMECC/UNICAMP)
+              </p>
+              <br>
+            </div>
+          </div>				-->
+          <!-- End span -->
+
+                
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
@@ -469,9 +573,33 @@
         </div>
         <!-- End row -->
           
-  
- 		<div class="row">     
- 		  
+         <div class="row">
+               
+          <div class="span6">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/people/thamiris.png" />
+                </div>
+                <div class="span4 aligncenter">
+                  <h6><b>Thamiris Florindo Coelho</b></h6>
+                  <p><b>Software Developer</b></p>
+                  <p><i>thamiris at ggaunicamp.com</i></p>
+                  <p>
+                    <a href="http://lattes.cnpq.br/3046744603908167" target="_blank">Lattes</a>
+                  </p>
+                </div>
+              </div>
+              <p style="text-align: justify;">
+                Computer Engineering student at the Institute of Computing at the
+                University of Campinas (IC/UNICAMP)
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+         
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
@@ -496,7 +624,12 @@
             </div>
           </div>          
          <!-- End span -->
-             
+         
+		</div>
+        <!-- End row -->
+
+<div class="row">
+     
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
@@ -521,9 +654,63 @@
             </div>
           </div>
       <!-- End span -->
-
-		</div>
+      <!--  
+        
+         <div class="span6">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/people/rene.png" />
+                </div>
+                <div class="span4 aligncenter">
+                  <h6><b>Rene Juliano Martins</b></h6>
+                  <p><b>Systems Development Analyst</b></p>
+                  <p><i>rene at ggaunicamp.com</i></p>
+                  <p>
+                    <a href="http://lattes.cnpq.br/1356207775633874" target="_blank">Lattes</a>
+                  </p>
+                </div>
+              </div>
+              <p style="text-align: justify;">
+                Systems Analysis at Pontifical Catholic University of Campinas (PUC Campinas)
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+		<!-- </div>-->
         <!-- End row -->
+	
+	<!-- <div class="row">	-->
+	
+		<div class="span6">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/people/guilherme.vin.jpg" />
+                </div>
+                <div class="span4 aligncenter">
+                  <h6><b>Guilherme Vinicius de Almeida Silva</b></h6>
+                  <p><b>System Administrator</b></p>
+                  <p><i>guivas at ggaunicamp.com</i></p>
+                  <p>
+                    <a href="http://lattes.cnpq.br/6172928271262782" target="_blank">Lattes</a>
+                  </p>
+                </div>
+              </div>
+              <p style="text-align: justify;">
+                
+				Information Technology Management at Pontifical Catholic University of Campinas (PUC Campinas)
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+        </div>
+ 
+        <!-- End row -->   
         <!-- End of Staff -->
 
         <!-- Post docs -->
@@ -677,34 +864,33 @@
 
         <div class="row">
 
-           <div class="span6">
-            <div class="team-box thumbnail">
-              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
-                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
-                  <img
-                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
-                    src="img/hpg/people/semFoto.png" />
-                </div>
-                <div class="span4 aligncenter">
-                   <h6><b>Gabriel Batista Moura </b></h6>
-                  <p><b>Undergraduate Researcher</b></p>
-                  <p><i>gabriel at ggaunicamp.com</i></p>
-                  </div>
-              </div>
-              <p style="text-align: justify;">
-              </p>
-            </div>
-          </div>
-          <!-- End span -->
-          
-          
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
                 <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
                   <img
                     style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
-                    src="img/hpg/people/leticia.png" />
+                    src="img/hpg/people/fernando.png" />
+                </div>
+                <div class="span4 aligncenter">
+                  <h6><b>Fernando Gonçalves Rocha</b></h6>
+                  <p><b>Undergraduate Researcher</b></p>
+                  <p><i>fernando at ggaunicamp.com</i></p>
+                </div>
+              </div>
+              <p style="text-align: justify;">
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+
+          <div class="span6">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/people/semFoto.png" />
                 </div>
                 <div class="span4 aligncenter">
                   <h6><b>Letícia Prado de Araujo</b></h6>
@@ -717,19 +903,39 @@
             </div>
           </div>
           <!-- End span -->
-        
+
         </div>
         <!-- End row -->
+
+        <div class="row">
         
-        <div class="row">   
-                           
+         <div class="span6">
+            <div class="team-box thumbnail">
+              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
+                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
+                  <img
+                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
+                    src="img/hpg/people/luansoares.png" />
+                </div>
+                <div class="span4 aligncenter">
+                  <h6><b>Luan Soares de Freitas</b></h6>
+                  <p><b>Undergraduate Researcher</b></p>
+                  <p><i>luan at ggaunicamp.com</i></p>
+                </div>
+              </div>
+              <p style="text-align: justify;">
+              </p>
+            </div>
+          </div>
+          <!-- End span -->
+          
           <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
                 <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
                   <img
                     style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
-                    src="img/hpg/people/luiz.eduardo.png" />
+                    src="img/hpg/people/semFoto.png" />
                 </div>
                 <div class="span4 aligncenter">
                   <h6><b>Luiz Eduardo Gonçalves</b></h6>
@@ -742,32 +948,13 @@
             </div>
           </div>
           <!-- End span -->
-     
-           <div class="span6">
-            <div class="team-box thumbnail">
-              <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
-                <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
-                  <img
-                    style="box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.23); border-radius: 5px; width: 100px; max-width: 150%"
-                    src="img/hpg/people/semFoto.png" />
-                </div>
-                <div class="span4 aligncenter">
-                   <h6><b>Marcela Liberato Silva </b></h6>
-                  <p><b>Undergraduate Researcher</b></p>
-                  <p><i>Marcela at ggaunicamp.com</i></p>
-                  </div>
-              </div>
-              <p style="text-align: justify;">
-              </p>
-            </div>
-          </div>
-          <!-- End span --> 
-                 
- 		 </div>
-        <!-- End row --> 
+
+        </div>
         
-        <div class="row">        
-           <div class="span6">
+        
+        <div class="row">
+
+          <div class="span6">
             <div class="team-box thumbnail">
               <div class="row" style="margin-left: 0px; margin-bottom: 10px;">
                 <div class="span1 aligncenter" style="margin-left: 10px; margin-right: 10px;">
@@ -786,10 +973,12 @@
             </div>
           </div>
           <!-- End span -->
+
         </div>
         <!-- End row -->
-       
-   <!--End grads Students-->
+        
+     
+      </div>
 
     </section>
 
