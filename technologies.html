@@ -21,6 +21,10 @@
   <!-- Theme skin -->
   <link href="color/default.css" rel="stylesheet" />
 
+  <!-- twenty plugin
+  <link href="css/foundation.css" rel="stylesheet" type="text/css" />-->
+  <link href="css/twentytwenty-no-compass.css" rel="stylesheet" type="text/css" />
+
   <!-- Fav and touch icons -->
   <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
@@ -113,9 +117,19 @@
                   <li>Enhancement of events.</li>
                   <li>Dataset regularization and interpolation.</li>
                 </ul>
-              </p>
-            </div>
-          </div>
+              </p>                      
+
+                <div class="slderh"><!--Div to centralize slider container. Use class=slderv to vertical images or slderh to horizontal images-->               
+                  <!-- twenty plugin -->
+                    <div class="twentytwenty-container">
+                              
+                    <img src="img/hpg/technologies/crp2ddepois.png"/><!--Depois-->
+                    <img src="img/hpg/technologies/crp2dantes.png"/><!--Antes-->
+                    </div>
+                 
+                </div>                           
+              </div>          
+          </div>        
         </div>
 
         <div class="row">
@@ -250,10 +264,12 @@
                   <li>Can be incorporated into any seismic-processing sequence.</li>
                 </ul>
               </p>
+              <div class="slderh">
+              <img src="img/hpg/technologies/stretchfstacking.png"  />
             </div>
           </div>
+          </div>
         </div>
-
         <div class="row">
           <div class="span12">
             <div class="team-box thumbnail">
@@ -269,6 +285,15 @@
                   <li>Parameter guides that ensures geological consistency and estimation convergence.</li>
                   <li>Global estimation of parameters through Differential Evolution (DE).</li>
                 </ul>
+                  
+                <div class="slderv"> <!--Div to centralize slider container. Use class=slderv to vertical images or slderh to horizontal images-->
+                        <!-- twenty plugin -->
+                  <div class="twentytwenty-container">
+                    
+                    <img src="img/hpg/technologies/crs2ddepois.png" /><!--Depois-->
+                    <img src="img/hpg/technologies/crs2dantes.png"  /><!--Antes-->
+                  </div>
+                </div>
               </p>
             </div>
           </div>
@@ -287,6 +312,14 @@
                   <li>Global estimation of parameters through Differential Evolution (DE).</li>
                 </ul>
               </p>
+              <div class="slderh"> <!--Div to centralize slider container. Use class=slderv to vertical images or slderh to horizontal images-->
+              <!-- twenty plugin -->
+              <div class="twentytwenty-container">
+                    
+                <img src="img/hpg/technologies/dsr2ddepois.png"  /><!--Depois-->
+                <img src="img/hpg/technologies/dsr2dantes.png"  /><!--Antes-->
+              </div>
+              </div>
             </div>
           </div>
         </div>
@@ -306,7 +339,17 @@
                   <li>Determine fault-planes, pinch-outs, discontinuities.</li>
                   <li>Perform quality control for time/depth migration.</li>
                 </ul>
+
+
               </p>
+                  <div class="slderv"><!--Div to centralize slider container. Use class=slderv to vertical images or slderh to horizontal images-->
+                    <!-- twenty plugin -->
+                    <div class="twentytwenty-container">
+                    
+                      <img src="img/hpg/technologies/drsspreadingdepois.png"/><!--Depois-->
+                      <img src="img/hpg/technologies/dsrspreadingantes.png" /><!--Antes-->
+                    </div>
+                  </div>
             </div>
           </div>
         </div>    
@@ -421,6 +464,16 @@
 
   <!-- Template Custom JavaScript File -->
   <script src="js/custom.js"></script>
+
+  <!-- TwentyTwenty -->
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+    <script>
+      $(window).load(function () {
+        $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({ default_offset_pct: 0.7 });
+        $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({ default_offset_pct: 50, orientation: 'vertical' });
+      });
+    </script>
 
 
 </body>
